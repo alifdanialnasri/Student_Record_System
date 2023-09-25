@@ -1,0 +1,95 @@
+SECTION A – 30 MARKS
+
+Task: Simple Student Record System
+
+You are required to implement a simple Java system to maintain the student records of a training center, which currently runs three online courses: Java Programming, Object Oriented Design and Software Testing. Student who passes all three courses can receive a software programmer certificate from this training center. The tuition fees for each course is RM 1500 at the moment. The manager can update the tuition fee of each courses at any time.
+
+Every student enrolled in this training center has an unique student ID such as “S123”. Their full names are recorded such as “Naim Ahmad”. A student can register for any course if he/she has not taken this course before or failed that course before. Repeating students needs to pay the tuition fee for that course again.
+
+Part A : DEVELOPMENT (60%)
+
+Implement the above scenario. The key focus is to use appropriate data structure and algorithm design. For testing and marking purposes, you can hardcode at least three students in your program:
+
+S001 : Maryam S002 : Kelvin S003 : Yahya
+
+The suggested menu is:
+a)	Student Admin
+b)	Update tuition fees
+c)	Exit
+
+The first option “Student Admin” would produce output similar to the following. Text in bold are user input from keyboard.
+
+====================================================================
+The Real Training Center – Student Admin
+====================================================================
+Please select:
+a)	List all students
+b)	Add a new students
+c)	Go back
+
+a
+
+1.	Student ID: S001 Name: Fatin
+
+2.	Student ID: S002 Name: Kelvin
+
+3.	Student ID: S003 Name: Adam
+
+There are 3 students in total.
+ 
+
+Please select:
+a)	List all students
+b)	Add a new student
+c)	Go back
+
+b
+
+Enter a student ID: S003
+Sorry, this ID is already in the record.
+
+Enter a student ID: S004
+Enter the student name: Bianca
+Thank you. New student added! Please select:
+a)	List all students
+b)	Add a new student
+c)	Go back
+
+c
+
+a)	Student Admin
+b)	Update tuition fees
+c)	Exit
+
+The second option “Update Tuition Fee” would produce output similar to the following. Text in bold are user input from keyboard.
+
+====================================================================
+The Real Training Center – Update tuition fee
+====================================================================
+Please select the course:
+a)	Java Programming
+b)	Object-oriented Design
+c)	Software Testing
+d)	Go back
+
+a
+
+Please enter the new fee for Java Programming or enter “c” to cancel.
+2000
+Fee update successfully. Please select the course:
+a)	Java Programming
+b)	Object-oriented Design
+c)	Software Testing
+d)	Go back
+
+d
+ 
+a)	Student Admin
+b)	Update tuition fees
+c)	Exit
+c
+Good bye
+
+Part B: Demonstration (40%)
+
+You need to demo the project to your lecturer and make sure all functionality is working, must have comment in your codes, exception, using OOP and control statements.
